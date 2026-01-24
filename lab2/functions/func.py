@@ -28,12 +28,12 @@ class LSLR(func):
 
     def grad(self, w: np.ndarray) -> np.ndarray: # type: ignore
         ## TODO 
-        return (2*(self.X).T @ self.X @ w - 2*(self.X).T @ self.y)/self.n_features
+        return (2*(self.X).T @ self.X @ w - 2*(self.X).T @ self.y).flatten()/self.n_samples
         raise NotImplementedError("Gradient computation not implemented yet.")
 
     def hessian(self, w: np.ndarray) -> np.ndarray: # type: ignore
         ## TODO
-        return (2*(self.X).T @ self.X)
+        return (2*(self.X).T @ self.X)/self.n_samples
         raise NotImplementedError("Hessian computation not implemented yet.")
 
 
