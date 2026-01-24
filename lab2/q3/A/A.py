@@ -28,7 +28,7 @@ def solve_func(X: np.ndarray, y: np.ndarray) -> np.ndarray:
     
         returns the optimal weight vector w_optimal
     """
-    return np.pinv(X.T @ X) @ X.T @ y
+    return np.linalg.pinv(X.T @ X) @ X.T @ y
 
     raise NotImplementedError("Function 'solve_func' is not implemented yet.")
 
