@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-02-01T16:05:32.915473",
+  "dataset": "D",
+  "algorithm": "<algo1_name> (Algo1)",
+  "learning_rate": 0.1275321072996739,
+  "results": {
+    "final_mse": 0.03952904356359073,
+    "mse_exact": 0.039529035701065945,
+    "epochs_required": 39,
+    "converged": true,
+    "tolerance": 1e-08,
+    "total_time": 0.6982414722442627,
+    "time_per_epoch": 0.017903627493442632
+  },
+  "initial_point_norm": 0.0,
+  "final_point_norm": 7.401840847810509
+}
