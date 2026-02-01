@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-02-01T16:05:32.915473",
-  "dataset": "D",
+  "timestamp": "2026-02-01T16:15:00.118418",
+  "dataset": "A",
   "algorithm": "<algo1_name> (Algo1)",
-  "learning_rate": 0.1275321072996739,
+  "learning_rate": 0.005012488107483547,
   "results": {
-    "final_mse": 0.03952904356359073,
-    "mse_exact": 0.039529035701065945,
-    "epochs_required": 39,
-    "converged": true,
-    "tolerance": 1e-08,
-    "total_time": 0.6982414722442627,
-    "time_per_epoch": 0.017903627493442632
+    "final_mse": 0.11215441305731585,
+    "mse_exact": 0.009238996925705617,
+    "epochs_required": 10000,
+    "converged": false,
+    "tolerance": 0.01,
+    "total_time": 2.666719675064087,
+    "time_per_epoch": 0.0002666719675064087
   },
   "initial_point_norm": 0.0,
-  "final_point_norm": 7.401840847810509
+  "final_point_norm": 3.314141229444478
 }
